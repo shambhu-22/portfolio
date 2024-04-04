@@ -1,0 +1,30 @@
+<div>
+    <mat-accordion>
+        <mat-expansion-panel hideToggle>
+            <!-- .Net experience -->
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              .Net
+            </mat-panel-title>
+            <mat-panel-description>
+              3yrs
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+          <p>MVC, Web API, LINQ</p>
+        </mat-expansion-panel>
+    
+            <!-- Angular -->
+        <mat-expansion-panel (opened)="panelOpenState = true"
+                             (closed)="panelOpenState = false">
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Angular 12
+            </mat-panel-title>
+            <mat-panel-description>
+              2yrs
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+          <p>File Upload/download, etc.</p>
+        </mat-expansion-panel>
+    </mat-accordion>
+</div>

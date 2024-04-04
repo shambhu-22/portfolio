@@ -1,0 +1,23 @@
+mat-card {
+    max-width: 400px;
+    color: white;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+
+.example-header-image {
+    background-image: url('https://media.istockphoto.com/id/692848168/photo/lord-jai-hanuman.jpg?b=1&s=612x612&w=0&k=20&c=qrim-BmaCK5FvYxR6ZYtVUAAu0rmrpbFXZVQ2MJrHyQ=');
+    background-size: cover;
+}
+
+mat-card>mat-card-actions>button:nth-child(2) {
+    margin-left: 10px;
+    font-weight: 900;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    mat-card {
+      width: 100%;
+    }
+  }

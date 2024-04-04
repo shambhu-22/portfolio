@@ -1,0 +1,5 @@
+<mat-label>Email:</mat-label>
+<p [ngStyle]="{'display': 'inline-block', 'margin': '0 10px'}">{{email}}</p>
+<button matTooltip="Copy" color="primary" (click)="copyEmail()" aria-hidden="false" aria-label="copy to clipboard icon" mat-mini-fab>
+    <mat-icon>file_copy</mat-icon>
+</button>
